@@ -3,7 +3,7 @@ const app = express()
 const PORT = process.env.PORT || '8000'
 
 
-/**
+/***
  * @api {get} /hello/{name} Prints "Hello {name}"
  * @apiName HelloWorld
  * @apiParam (Url) {String} name the name to print
